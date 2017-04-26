@@ -1,0 +1,132 @@
+header{
+  background: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  padding: 2%;
+}
+
+header div h1{
+  color: white;
+  text-shadow: 2px 0px 1px #02010a;
+}
+
+.cabeza{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+}
+.cabeza div{
+  box-sizing: border-box;
+  width: 50%;
+}
+
+#titulo{
+  text-align: left;
+}
+
+#menu{
+  text-align: right;
+  font-size: 25px;
+  padding-right: 5%;
+  padding-top: 2%;
+}
+#menu a[href^="index"]{
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Dancing Script';
+  background-color: #02010a;
+}
+
+img{
+  box-shadow: 2px 2px 1px #02010a;
+}
+
+#contenido{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#fotoCentral{
+  background: #82c3a6;
+  text-align: center;
+  padding: 20px;
+}
+#fotoCentral img{
+  width: 80%;
+}
+
+.fotosSecundarias {
+  border: 1px solid black;
+  background-color: #d5c75f;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+}
+.fotosSecundarias div{
+  box-sizing: border-box;
+  padding-top: 20px;
+  width: 50%;
+  text-align: center;
+}
+.fotosSecundarias img{
+  width: 80%;
+  height: 70%;
+}
+
+#fotoPaisaje{
+  transition: all 1s;
+}
+#fotoPaisaje:hover{
+  transform: rotate(10deg);
+  box-shadow: 2px 2px 1px #82c3a6;
+  border: 2px solid black;
+}
+
+#fotoRetratos{
+  transition: all 1s;
+}
+#fotoRetratos:hover{
+  transform: translate(20px, -5px);
+  box-shadow: 2px 2px 1px #82c3a6;
+  border: 2px solid black;
+}
+
+footer{
+  border-radius: 0px 0px 10px 10px;
+  background-color: #C6d5c5;
+}
+
+.piePagina{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+.piePagina div{
+  box-sizing: border-box;
+  width: 25%;
+  text-align: center;
+}
+.piePagina div img{
+  box-shadow: 0 0 0 black;
+  width: 10%
+}
+
+@media (max-width: 900px) {
+  .fotosSecundarias div, .piePagina div, .cabeza div {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+
+  #titulo, #menu{
+    text-align: center;
+    padding: 0;
+  }
+}
