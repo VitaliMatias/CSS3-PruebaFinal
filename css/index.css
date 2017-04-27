@@ -121,8 +121,6 @@ footer{
 @media (max-width: 900px) {
   .fotosSecundarias div, .piePagina div, .cabeza div {
     width: 100%;
-    padding: 0;
-    margin: 0;
     }
 
   #titulo, #menu{
