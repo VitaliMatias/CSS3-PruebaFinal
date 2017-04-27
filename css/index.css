@@ -36,6 +36,9 @@ header div h1{
 #menu a[href^="index"]{
   text-decoration: none;
 }
+#menu a:visited{
+  color: white;
+}
 
 body{
   font-family: 'Dancing Script';

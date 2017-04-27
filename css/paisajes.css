@@ -35,6 +35,9 @@ header div h1{
 #menu a[href^="paisajes"]{
   text-decoration: none;
 }
+#menu a:visited{
+  color: white;
+}
 
 .galeria{
   border: 1px;
