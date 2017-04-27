@@ -2,6 +2,8 @@ header{
   background: #5b7989;
   border-radius: 10px 10px 0px 0px;
   padding: 2%;
+  color: white;
+  animation: animacion1 2s;
 }
 
 header div h1{
@@ -59,7 +61,7 @@ img{
 }
 
 .fotosSecundarias {
-  border: 1px solid black;
+  border: 1px ;
   background-color: #d5c75f;
   margin: 0;
   padding: 0;
@@ -126,5 +128,17 @@ footer{
   #titulo, #menu{
     text-align: center;
     padding: 0;
+  }
+}
+
+@keyframes animacion1 {
+  0%{
+    margin-top: 150%;
+  }
+  50%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
   }
 }
